@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
 
-    axios.get('https://jsonplaceholder.typicode.com/todos/1')
+    axios.get('https://node-render-2dop.onrender.com/students')
       .then(res => {
         console.log(res.data);
         setStudents(res.data.students);
